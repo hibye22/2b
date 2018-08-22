@@ -49,7 +49,7 @@ client.on('ready', async () => {
 
 
 const adminprefix = "2";
-const devs = ['430757935753461761','431150885549113344'];
+const devs = ['280799446588194819','431150885549113344'];
 bot.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
